@@ -1,0 +1,628 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "briqs-builder;left-click-introduces-a-new-briq",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Left click introduces a new briq",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1523530542.9999998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User opens briq builder page",
+            "match": {
+              "location": "src/steps/briq.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6972645398
+            },
+            "embeddings": [
+              {
+                "data": "[vite] connecting...",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "[vite] connected.",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "PALETTE - resetting colors following unknown errors.",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SETTINGS - saving settings",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "STARTING WALLET CONNECT null",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SWITCHING BLOCKCHAIN PROVIDER TO  starknet-testnet",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "VueX Store Loaded",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SWITCHING TO NETWORK starknet-testnet",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Writing address  ",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "CHAIN BRIQS - ADDRESS IS  ObjectRefImpl ",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "CHAIN BRIQS - CONTRACT IS  Proxy",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Successfully dynamically loaded three.js",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SET STORAGE HANDLER - Serializing set  0xc7dd4e00fc844056bf2527f0569e8f68",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "FEATURE_FLAGS - Loaded",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Amount of used briqs is 27",
+            "match": {
+              "location": "src/steps/briq.steps.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 292475583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "User left clicks on x=400 and y=400 coordinates in the canvas",
+            "match": {
+              "location": "src/steps/briq.steps.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2446078392
+            },
+            "embeddings": [
+              {
+                "data": "SET STORAGE HANDLER - Serializing set  0xc7dd4e00fc844056bf2527f0569e8f68",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Amount of used briqs is 28",
+            "match": {
+              "location": "src/steps/briq.steps.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 806909945
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 36353193
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:1s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "briqs-builder;right-click-removes-the-brig",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Right click removes the brig",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 351694625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User opens briq builder page",
+            "match": {
+              "location": "src/steps/briq.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6134251175
+            },
+            "embeddings": [
+              {
+                "data": "[vite] connecting...",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "[vite] connected.",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "PALETTE - resetting colors following unknown errors.",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SETTINGS - saving settings",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "STARTING WALLET CONNECT null",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SWITCHING BLOCKCHAIN PROVIDER TO  starknet-testnet",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "VueX Store Loaded",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SWITCHING TO NETWORK starknet-testnet",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Writing address  ",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "CHAIN BRIQS - ADDRESS IS  ObjectRefImpl ",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "CHAIN BRIQS - CONTRACT IS  Proxy",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Successfully dynamically loaded three.js",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SET STORAGE HANDLER - Serializing set  0xfbcb880f70c84be9a4dd25374c240aa4",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User left clicks on x=500 and y=500 coordinates in the canvas",
+            "match": {
+              "location": "src/steps/briq.steps.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1139036180
+            },
+            "embeddings": [
+              {
+                "data": "FEATURE_FLAGS - Loaded",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SET STORAGE HANDLER - Serializing set  0xfbcb880f70c84be9a4dd25374c240aa4",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Amount of used briqs is 28",
+            "match": {
+              "location": "src/steps/briq.steps.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38125729
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User right clicks on x=500 and y=500 coordinates in the canvas",
+            "match": {
+              "location": "src/steps/briq.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1340510568
+            },
+            "embeddings": [
+              {
+                "data": "SET STORAGE HANDLER - Serializing set  0xfbcb880f70c84be9a4dd25374c240aa4",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Amount of used briqs is 27",
+            "match": {
+              "location": "src/steps/briq.steps.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 801360683
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 204193123
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "briqs-builder",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Briqs builder",
+    "tags": [],
+    "uri": "features/canvas-interaction.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "briq-navigation;click-build-button",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Click build button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 457876538
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User opens briq welcome page",
+            "match": {
+              "location": "src/steps/briq.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2918760933
+            },
+            "embeddings": [
+              {
+                "data": "[vite] connecting...",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "[vite] connected.",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "`Build` button is clicked",
+            "match": {
+              "location": "src/steps/briq.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4643605455
+            },
+            "embeddings": [
+              {
+                "data": "PALETTE - resetting colors following unknown errors.",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SETTINGS - saving settings",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "STARTING WALLET CONNECT null",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SWITCHING BLOCKCHAIN PROVIDER TO  starknet-testnet",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "VueX Store Loaded",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SWITCHING TO NETWORK starknet-testnet",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Writing address  ",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "CHAIN BRIQS - ADDRESS IS  ObjectRefImpl ",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "CHAIN BRIQS - CONTRACT IS  Proxy",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Successfully dynamically loaded three.js",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SET STORAGE HANDLER - Serializing set  0x5e4814803ae24718b26de35ec74b5bba",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User is presented with canvas",
+            "match": {
+              "location": "src/steps/briq.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1288472836
+            },
+            "embeddings": [
+              {
+                "data": "FEATURE_FLAGS - Loaded",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 297152560
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "briq-navigation;get-help",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Get help",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 600534819
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User opens briq welcome page",
+            "match": {
+              "location": "src/steps/briq.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1810435844
+            },
+            "embeddings": [
+              {
+                "data": "[vite] connecting...",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "[vite] connected.",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "User opens briq builder page",
+            "match": {
+              "location": "src/steps/briq.steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4975530133
+            },
+            "embeddings": [
+              {
+                "data": "[vite] connecting...",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "[vite] connected.",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "PALETTE - resetting colors following unknown errors.",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SETTINGS - saving settings",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "STARTING WALLET CONNECT null",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SWITCHING BLOCKCHAIN PROVIDER TO  starknet-testnet",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "VueX Store Loaded",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SWITCHING TO NETWORK starknet-testnet",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Writing address  ",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "CHAIN BRIQS - ADDRESS IS  ObjectRefImpl ",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "CHAIN BRIQS - CONTRACT IS  Proxy",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "Successfully dynamically loaded three.js",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "SET STORAGE HANDLER - Serializing set  0x8fda119aa49b45b29d43093b1f99a623",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "FEATURE_FLAGS - Loaded",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "`Help` button is clicked",
+            "match": {
+              "location": "src/steps/briq.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9676794047
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User is redirected to the `How to` guide",
+            "match": {
+              "location": "src/steps/briq.steps.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8496039
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 137470822
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "briq-navigation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Briq navigation",
+    "tags": [],
+    "uri": "features/navigation.feature"
+  }
+]
