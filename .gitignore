@@ -9,3 +9,4 @@ node_modules
 /screenshots/
 /traces/
 /playwright-report/
+/reports/

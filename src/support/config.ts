@@ -13,5 +13,5 @@ export const config = {
   browser: process.env.BROWSER || 'chromium',
   browserOptions,
   IMG_THRESHOLD: { threshold: 0.4 },
-  BASE_BRIQ_URL: 'http://localhost:3000'
+  BASE_BRIQ_URL: process.env.BASE_BRIQ_URL || 'http://localhost:3000'
 };
